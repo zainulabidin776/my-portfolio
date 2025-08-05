@@ -173,12 +173,14 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="relative group">
-              <div className="w-full h-96 bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl flex items-center justify-center relative overflow-hidden hover:scale-105 transition-transform duration-500">
+              <div className="w-full h-96 bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl relative overflow-hidden hover:scale-105 transition-transform duration-500">
                 <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 via-transparent to-cyan-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <div className="text-gray-500 text-center relative z-10">
-                  <div className="w-24 h-24 bg-gradient-to-br from-gray-700 to-gray-600 rounded-full mx-auto mb-4 group-hover:from-emerald-600/50 group-hover:to-cyan-600/50 transition-all duration-500"></div>
-                  <p className="group-hover:text-gray-400 transition-colors duration-300">Your Photo Here</p>
-                </div>
+                <img
+                  src="/zain-picture.png"
+                  alt="Zain Ul Abidin - Software Developer"
+                  className="w-full h-full object-cover rounded-2xl relative z-10 group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-gray-900/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20"></div>
               </div>
               <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-2xl blur opacity-0 group-hover:opacity-20 transition-opacity duration-500"></div>
             </div>
